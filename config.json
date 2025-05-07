@@ -1,0 +1,22 @@
+{
+    "source": {
+      "connection_string": "mongodb+srv://francesc:francesc@basicinitialtests.0asff.mongodb.net/?retryWrites=true&w=1&appName=BasicInitialTests&readPreference=primary",
+      "database_name": "CatSalutCDR",
+      "collection_name": "samples"
+    },
+    "target": {
+      "connection_string": "mongodb+srv://francesc:francesc@basicinitialtests.0asff.mongodb.net/?retryWrites=true&w=1&appName=BasicInitialTests&readPreference=primary",
+      "database_name": "CatSalutCDR",
+      "compositions_collection": "compositionsL",
+      "codes_collection": "_codesL",
+      "shortcuts_collection": "_shortcuts",
+      "enable_sharding": false
+    },
+    "clean_collections": false,
+    "reset_used_flags": false,
+    "batch_size": 100,
+    "max_workers": 1,
+    "patient_limit": 70000,
+    "replication_factor": 180,
+    "test_mode": false
+  }
