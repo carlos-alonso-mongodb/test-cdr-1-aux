@@ -7,7 +7,7 @@
     "target": {
       "connection_string": "mongodb+srv://francesc:francesc@basicinitialtests.0asff.mongodb.net/?retryWrites=true&w=1&appName=BasicInitialTests&readPreference=primary",
       "database_name": "CatSalutCDR",
-      "compositions_collection": "compositionsL",
+      "compositions_collection": "compositions-test",
       "codes_collection": "_codesL",
       "shortcuts_collection": "_shortcuts",
       "enable_sharding": false
