@@ -1,11 +1,11 @@
 {
     "source": {
-      "connection_string": "mongodb+srv://francesc:francesc@basicinitialtests.0asff.mongodb.net/?retryWrites=true&w=1&appName=BasicInitialTests&readPreference=primary",
+      "connection_string": "",
       "database_name": "CatSalutCDR",
       "collection_name": "samples"
     },
     "target": {
-      "connection_string": "mongodb+srv://francesc:francesc@basicinitialtests.0asff.mongodb.net/?retryWrites=true&w=1&appName=BasicInitialTests&readPreference=primary",
+      "connection_string": "",
       "database_name": "CatSalutCDR",
       "compositions_collection": "compositions-test",
       "codes_collection": "_codes-test",
